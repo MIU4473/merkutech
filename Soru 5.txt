@@ -1,0 +1,3 @@
+5- Dronun current status bilgileri (gps, altitude vb.) ayrıca donanımsal arıza, durum gibi bilgilerini bu kütüphaneler üzerinden görebilir miyiz ?
+
+Cevap: Evet, hem Dronekit hem de PyMavLink drone'un mevcut durumuyla ilgili çeşitli bilgileri almamıza ve kontrol etmemize olanak tanır.

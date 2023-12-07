@@ -1,0 +1,7 @@
+6- Dronun kalibrasyon işlemleri bu kütüphaneler üzerinden yapılabilir mi ? Yapılabilir ise istediğiniz framework üzerinden kodunu yazıp repositorye pushlayın lütfen.
+
+Cevap: Drone kalibrasyonu, genellikle cihazın kendi yazılımı veya arayüzü üzerinden yapılır. Dronekit veya PyMavLink gibi kütüphaneler genellikle daha yüksek seviye kontrol sağlar ve bu kütüphaneler aracılığıyla doğrudan kalibrasyon işlemleri gerçekleştirilemez. Kalibrasyon işlemleri, genellikle özel üretici yazılımı veya araçlarını kullanarak yapılır.
+
+Ancak bazı durumlarda kalibrasyon komutlarını MAVLink üzerinden göndererek bu işlemleri gerçekleştirebilirsiniz. Örneğin, bir parametre ayarlamak veya bir kalibrasyon komutunu göndermek için PyMavLink kullanılabilir.
+
+Soru6.py dosyasında bir örnek olarak gyroskop kalibrasyonu için bir komut gönderme işlemini simüle ettik.

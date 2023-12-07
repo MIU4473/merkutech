@@ -1,0 +1,10 @@
+2- Python kütüphanelerinden olan dronekit ve PyMavLink nedir ? Hangisini tercih etmeliyiz ? Neden tercih etmeliyiz gibi soruların cevaplarını araştırın.
+
+
+Cevap: Dronekit ve PyMavLink, drone'larla iletişim kurmak ve kontrol etmek için Python'da kullanılan kütüphanelerdir.
+
+Dronekit: Dronekit, drone'larla etkileşim kurmak için yüksek seviye bir API sağlayan bir Python kütüphanesidir. Dronekit önceden tanımlanmış komutlar aracılığıyla drone'ları kontrol etmeyi sağlar. GPS konumlandırma, rotalama, görev atama gibi yüksek seviye işlevleri kolayca gerçekleştirmenizi sağlar. Bu kütüphane, daha hızlı geliştirme süreçleri için kullanışlı olabilir. Ancak, bazı durumlarda daha düşük seviyeli kontrol gerektiren özel durumlar için yeterli olmayabilir.
+
+PyMavLink: PyMavLink MAVLink protokolünü Python diline bağlayan bir kütüphanedir. MAVLink drone'lar arası iletişimi standartlaştıran bir protokoldür. PyMavLink bu protokolü kullanarak düşük seviyeli kontrol sağlar ve direkt veri akışı üzerinden iletişim kurmayı mümkün kılar. PyMavLink daha düşük seviyeli bir API sunar ve donanım üzerinde daha fazla kontrol gerektiren durumlar için tercih edilebilir.
+
+Hangi kütüphaneyi tercih edeceğimiz projemize ve ihtiyaçlarımıza bağlı değişebilir. Eğer yüksek seviyede drone kontrolü ve hızlı geliştirme önceliğimiz ise Dronekit'i tercih edebiliriz. Daha düşük seviyede kontrol gerektiren özel durumlar veya MAVLink protokolüne doğrudan erişim gerekiyorsa PyMavLink'i kullanabiliriz.

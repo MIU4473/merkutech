@@ -1,0 +1,3 @@
+1- dronekit-sitl nedir ? Nasıl kullanılır ? Lütfen sisteminizde kurup test ortamınızı hazırlayın.
+
+Cevap: Dronekit-SITL bir yazılım simülasyon aracıdır ve Dronekit adlı bir Python kütüphanesi ile entegre olarak kullanılır. Dronekit-SITL gerçek bir drone'u fiziksel olarak kullanmadan önce, yazılımın davranışını test etmek ve geliştirmek için sanal bir ortam sağlar.
